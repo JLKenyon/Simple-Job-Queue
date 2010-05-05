@@ -1,0 +1,6 @@
+The Simple-Job-Queue is a small python server, designed for simple distribution of tasks over a network.  It is based entirely on standard python modules, and is comprised primarily of a SimpleXMLRPCServer with a threading-mixin.  This project is designed to be as simple as possible, at the cost of features and rhobustness.
+
+This project is not intended to operate in any serious production environment.  There are no security features, no redundancy and may be bugs.  This project should only be used for trivial tasks or as a skeleton for a more rhobust system.
+
+In order to use the program, simply run the program "queue_server.py" in the source directory.  Then, in a separate terminal, run the "sample_source.py" program, and any number of works by running "sample_worker.py".
+
